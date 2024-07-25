@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive To-Do List</title>
+  <link rel="stylesheet" href="todo_list.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo"><img src="https://t3.ftcdn.net/jpg/08/40/82/32/240_F_840823266_LuSBlVcAM1hjZSJpSk5DY36GFivJZnke.jpg" alt="Logo"></div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#" id="refresh">Refresh</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="section">
+    <div class="overlay">
+      <h2>Welcome to To-Do List</h2>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h3>About To-Do List</h3>
+    <p>Organize your tasks efficiently with our To-Do List application. Whether it's for work, school, or personal projects, keep track of your tasks and complete them on time.</p>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="section">
+    <h2>Features & Services</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="https://calcy24.com/storage/2024/05/1afda612-948f-457f-a512-364a9ed5f598-860x491.png" alt="Feature 1">
+        <h3>Easy to Use</h3>
+      </div>
+      <div class="card">
+        <img src="https://i0.wp.com/regionalopportunityinc.org/src-content/uploads/2021/06/Speed-Test-Website-Header-01.png?fit=1000%2C670&ssl=1.jpg" alt="Feature 2">
+        <h3>Fast Performance</h3>
+      </div>
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwVNMJYaObzxFs-5lZXCwQX2MWF_OOVbG8lA&s.jpg" alt="Feature 3">
+        <h3>Responsive Design</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- To-Do List Section -->
+  <section id="todo" class="section">
+    <h2>To-Do List</h2>
+    <form id="todoForm">
+      <label for="newTask">Add a new task:</label>
+      <input type="text" id="newTask" name="newTask" required>
+      <button type="submit">Add Task</button>
+    </form>
+    <ul id="taskList"></ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-column">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#terms">Terms and Conditions</a></li>
+        <li><a href="#features">Services</a></li>
+        <li><a href="#home">Inspired By</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h3>Contact</h3>
+      <p>Email: <a href="mailto:rajlaiya2017@gmail.com">rajlaiya2017@gmail.com</a></p>
+      <p>Phone: <a href="tel:+916355705208">+91 6355705208</a></p>
+    </div>
+    <div class="footer-column">
+      <h3>Follow Us</h3>
+      <a href="https://www.linkedin.com/in/raj-laiya"><img src="https://cdn-icons-png.flaticon.com/512/61/61109.png" alt="LinkedIn"></a>
+      <a href="https://github.com/rajlaiya?tab=repositories"><img src="https://pngimg.com/uploads/github/github_PNG83.png" alt="GitHub"></a>
+      <a href="https://codepen.io/pen?template=PorGdxb"><img src="https://pbs.twimg.com/profile_images/923214541290221569/dCMZxkwz_400x400.jpg" alt="CodePen"></a>
+    </div>
+  </footer>
+
+  <script src="todo_list.js"></script>
+</body>
+</html>
